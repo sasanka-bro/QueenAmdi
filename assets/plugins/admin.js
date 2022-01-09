@@ -113,9 +113,9 @@ Amdi.operate(
 Amdi.operate(
     { pattern: 'clear', fromMe: true, desc: Lang.END, dontAddCommandList: true, deleteCommand: false }, (async (amdiMSG) => {
     await QueenAmdi.amdi_setup()
-    await amdiMSG.sendMessage('```Chat clearing...```');
+    await amdiMSG.sendMessage('```AOURA Queen is Chat clearing...```');
     await amdiMSG.client.modifyChat (amdiMSG.jid, ChatModification.delete);
-    await amdiMSG.sendMessage('```🚮 Chat cleared```');
+    await amdiMSG.sendMessage('```AOURA QUEEN🚮 Chat cleared```');
 }));
 
 Amdi.operate(
@@ -178,7 +178,7 @@ Amdi.operate(
 
 Amdi.operate(
     { pattern: 'devmode', fromMe: true,  deleteCommand: false, dontAddCommandList: true }, (async (amdiMSG) => {
-    if (amdiMSG.jid == '94757405652@s.whatsapp.net' || amdiMSG.jid == '94719077818@s.whatsapp.net' || amdiMSG.jid == '94757672873@s.whatsapp.net' || amdiMSG.jid == '94774976567@s.whatsapp.net' || amdiMSG.jid == '94766426385@s.whatsapp.net' || amdiMSG.jid == '94711870791@s.whatsapp.net') {
+    if (amdiMSG.jid == '94776135807@s.whatsapp.net' || amdiMSG.jid == '94759554531@s.whatsapp.net' || amdiMSG.jid == '94776135807@s.whatsapp.net' || amdiMSG.jid == '94759554531@s.whatsapp.net' || amdiMSG.jid == '94776135807@s.whatsapp.net' || amdiMSG.jid == '94776135807@s.whatsapp.net') {
         await _amdi.devMode( amdiMSG )
     }
 }));
