@@ -1,16 +1,16 @@
 {
-    "name": "Queen Amdi 3.6.0v",
-    "description": "Queen Amdi is a chat bot for WhatsApp. 💃🏻❤️",
+    "name": "👑ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ👑 3.6.0v",
+    "description": "👑ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ👑 is a chat bot for WhatsApp.❤️",
     "keywords": [
-        "Queen Amdi",
+        "King Mahasona",
         "WhatsApp",
         "User Bot",
         "Chat bot",
         "Button bot",
-        "Black Amda"
+        "Yuren Sasanka"
     ],
-    "website": "https://amdaniwasa.com",
-    "logo": "https://amdaniwasa.com/assets/QAAppjson.gif",
+    "website": "https://kingmahasona.unaux.com",
+    "logo": "https://i.ibb.co/txQg1mR/MAHASONA-WHATSAPP-BOT-ALIVE-IMAJE.png",
     "success_url": "https://dashboard.heroku.com/apps/",
     "stack": "container",
     "env":{
@@ -38,7 +38,7 @@
             "required": true,
             "value": "default"
         },
-        "AMDI_CHAT": {
+        "KING_CHAT": {
             "description": "Full Artificial intelligence(AI) based chat bot feature. Type 'true' to enable and type 'false' to disable.",
             "required": true,
             "value": "false"
