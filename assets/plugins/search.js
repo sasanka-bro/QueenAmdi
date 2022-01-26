@@ -45,7 +45,7 @@ Amdi.operate({pattern: 'getyt ?(.*)', fromMe: LOL,  deleteCommand: false, desc: 
         ytgot += '▶️ *' + video.title + '* - ' + video.url + '\n\n'
     });
 
-    await message.client.sendMessage(message.jid, '*❖ Queen Amdi Search Engine ❖*\n' + Lang.YTS + '\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n' + ytgot,MessageType.text, {quoted: message.data});
+    await message.client.sendMessage(message.jid, '*❖ 👑ᴋɪɴɢ ᴍᴀʜᴀꜱᴏɴᴀ👑 Search Engine ❖*\n' + Lang.YTS + '\n▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n\n' + ytgot,MessageType.text, {quoted: message.data});
     return await message.client.deleteMessage(message.jid, {id: searching.key.id, remoteJid: message.jid, fromMe: true})
 }));
 
